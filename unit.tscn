@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://bwsyqlnl73pkd"]
+
+[ext_resource type="Script" path="res://Unit.cs" id="1_kvh63"]
+
+[node name="Unit" type="Node2D" groups=["Units"]]
+script = ExtResource("1_kvh63")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]

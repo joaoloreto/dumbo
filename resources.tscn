@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://cr7sv2ufro5qh"]
+
+[ext_resource type="Script" path="res://Resources.cs" id="1_cdb1c"]
+
+[node name="Resources" type="Node2D"]
+script = ExtResource("1_cdb1c")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
